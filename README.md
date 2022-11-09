@@ -25,9 +25,9 @@ Libro de Ejemplo
 
 ```yaml
 ---
- - hosts: servidores
-   roles:
-      - cloudcxn.usuarios
+- hosts: servidores
+  roles:
+     - cloudcxn.usuarios
 ```
 
 License
