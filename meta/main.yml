@@ -1,0 +1,21 @@
+---
+dependencies: []
+
+galaxy_info:
+  author: "Byron Quezada"
+  company: "Cloud CxN"
+  description: "Configuración de cuentas de usuario en Debian"
+
+  galaxy_tags:
+    - usuarios
+    - raspbian
+
+  license: MIT
+  min_ansible_version: 2.1
+
+  platforms:
+  - name: Debian
+    versions:
+    - bullseye
+
+  role_name: "usuarios"
