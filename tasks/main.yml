@@ -16,7 +16,7 @@
 
 - name: "Configurar sudo sin contraseña para el administrador"
   ansible.builtin.copy:
-      content: "{{ usuario_administrador }}  ALL=(ALL) NOPASSWD: ALL"
-      dest: "/etc/sudoers.d/010_{{ usuario_administrador }}_nopasswd"
+      content: "{{ usuarios_administrador }}  ALL=(ALL) NOPASSWD: ALL"
+      dest: "/etc/sudoers.d/010_{{ usuarios_administrador }}_nopasswd"
       mode: 0440
       validate: "/usr/sbin/visudo -cf %s"
