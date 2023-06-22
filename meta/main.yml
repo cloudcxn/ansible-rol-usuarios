@@ -4,7 +4,7 @@ dependencies: []
 galaxy_info:
   author: "Byron Quezada"
   company: "Cloud CxN"
-  description: "Configuración de cuentas de usuario en Debian"
+  description: "Configuración de cuentas de usuario en Debian y Ubuntu"
 
   galaxy_tags:
     - usuarios
@@ -18,5 +18,8 @@ galaxy_info:
   - name: Debian
     versions:
     - bullseye
+  - name: Ubuntu
+    versions:
+    - jammy
 
   role_name: "usuarios"
